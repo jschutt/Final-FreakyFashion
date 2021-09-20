@@ -1,0 +1,76 @@
+@media screen and (max-width: 575px) {
+
+    /*GLOBAL*/
+    a:link {
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    /*TOP HEADER*/
+    .top-site-header img {
+        margin: 16px 0px 16px 0px;
+        width: 60%;
+    }
+
+    .top-site-header input[type=search] {
+        width: 96%;
+        margin: 0 auto;
+        border-radius: 1.25rem;
+        font-size: 1.25rem;
+    }
+    
+    .top-site-header ul {
+        width: 96%;
+        margin: 16px 0px 16px auto;
+        /* list-style: none; */
+        padding: 0;
+        font-size: 1.25rem;
+    }
+
+    /*HERO*/
+    .jumbotron {
+        background-color: pink;
+    }
+
+    .jumbotron img {
+        width: 85%;
+        padding: 16px 0px 16px 0px;
+    }
+
+    .jumbotron h1, p {
+        padding: 0px 40px 0px 40px;
+    }
+    .btn-container {
+        text-align: center;
+    }
+
+    /*SPOT*/
+    .main-spots {
+        display: none;
+    }
+
+    /*POPULÄRA PRODUKTER*/
+    h2 {
+        text-align: center;
+        margin: 0;
+        padding: 16px 0px 16px 0px;
+    }
+
+    /*FOOTER - ASIDE LISTA*/
+
+    .aside-info ul {
+        width: 96%;
+        padding: 0;
+
+    }
+    .aside-info > ul li {
+        padding: 0;
+        color: pink;
+
+    }
+
+
+}
