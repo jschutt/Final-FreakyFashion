@@ -17,6 +17,7 @@ ul {
 }
 
 .site-header img {
+  display: block;
   margin: 16px auto;
   width: 60%;
 }
@@ -35,6 +36,10 @@ ul {
   font-size: 1.25rem;
 }
 
+.site-header li {
+  display: block;
+}
+
 /*HERO*/
 .hero {
   background-color: pink;
@@ -48,6 +53,8 @@ ul {
 }
 
 .hero img {
+  display: block;
+  margin: auto;
   padding: 16px 0px;
   width: 90%;
 }

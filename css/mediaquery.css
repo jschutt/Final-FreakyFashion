@@ -1,0 +1,34 @@
+@media screen and (min-width: 576px) {
+
+  .site-header img {
+    margin: 16px 0px;
+    width: 90%;
+  }
+
+  .site-header nav > ul li {
+    border: 1px solid black;
+    display: inline;
+  }
+
+  .site-header form {
+      margin: auto 0;
+  }
+
+  .site-header ul {
+    margin: 0px 0px 16px 0px;
+    /* list-style: none; */
+  }
+
+  /* .hero {
+      height: 500px;
+  } */
+
+  .main-spots {
+      margin: 16px 0px;
+  }
+
+  .spots-img{
+      width: 100%;
+      
+  }
+}

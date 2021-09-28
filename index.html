@@ -1,186 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Freaky Fashion</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <script
-      src="https://kit.fontawesome.com/8d1abd618e.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <!-- SITE HEADER -->
-      <header class="site-header">
-        <div class="row">
-          <div class="col-12">
-            <img
-              src="https://placekitten.com/230/100"
-              class="rounded mx-auto d-block"
-              alt="logotyp"
-            />
-          </div>
-          <form>
-            <input type="search" class="form-control" placeholder="Search" />
-          </form>
-          <!-- SITE LINKS -->
-          <nav>
-            <ul>
-              <li><a href="#">Nyheter</a></li>
-              <li><a href="#">Kategorier</a></li>
-              <li><a href="#">Topplistan</a></li>
-              <li><a href="#">Rea</a></li>
-              <li><a href="#">Kampanjer</a></li>
-            </ul>
-          </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Freaky Fashion</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/mediaquery.css">
+  <script src="https://kit.fontawesome.com/8d1abd618e.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- SITE HEADER -->
+    <header class="site-header">
+      <div class="row">
+        <div class="col-12 col-sm-4">
+          <img src="https://placekitten.com/230/100" class="rounded" alt="logotyp" />
         </div>
-      </header>
+        <form class="col-sm-4">
+          <input type="search" class="form-control" placeholder="Search" />
+        </form>
+        <!-- SITE LINKS -->
+        <nav>
+          <ul>
+            <li><a href="#">Nyheter</a></li>
+            <li><a href="#">Kategorier</a></li>
+            <li><a href="#">Topplistan</a></li>
+            <li><a href="#">Rea</a></li>
+            <li><a href="#">Kampanjer</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-      <!-- HERO -->
-      <main>
-        <article class="hero">
+    <!-- HERO -->
+    <main>
+      <article class="hero row">
+        <!-- <div class="row"> -->
+        <div class="col-12 col-sm-8 order-sm-4">
+          <img src="https://placekitten.com/600/300" alt="Hero" />
+        </div>
+        <div class="col">
           <div class="row">
-            <div class="col-12">
-              <img
-                src="https://placekitten.com/600/300"
-                alt="Hero"
-                class="mx-auto d-block"
-              />
-            </div>
-            <!-- <div class="row"> -->
-
-            <h1 class="col-12 display-5">Lorem ipsum dolor</h1>
-            <p class="col-12 lead">
+            <h1 class="col-12 col-sm-12 order-sm-1">Lorem ipsum dolor</h1>
+            <p class="col-12 col-sm-12 order-sm-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consequuntur tempore dolores cumque, aliquid laudantium nisi.
               Excepturi eos commodi voluptate.
             </p>
-            <div class="col-12 btn-container">
+            <div class="col-12 col-sm-12 order-sm-3 btn-container">
               <button>Lorem</button>
             </div>
-
-            <!-- </div> -->
           </div>
-        </article>
+        </div>
+        <!-- </div> -->
+      </article>
 
-        <!-- SPOTS -->
-        <section class="main-spots d-none">
-          <div>
-            <img src="https://placekitten.com/250/165" alt="Produkt 1" />
+      <!-- SPOTS -->
+      <section class="main-spots d-none d-sm-flex">
+        <div class="row justify-content-center">
+          <div class="col-sm-4">
+            <img src="https://placekitten.com/250/165" alt="Produkt 1" class="spots-img" />
             <h3>Lorem ipsum dolor</h3>
           </div>
-          <div>
-            <img src="https://placekitten.com/250/165" alt="Produkt 2" />
+          <div class="col-sm-4">
+            <img src="https://placekitten.com/250/165" alt="Produkt 2" class="spots-img" />
             <h3>Lorem ipsum dolor</h3>
           </div>
-          <div>
-            <img src="https://placekitten.com/250/165" alt="Produkt 3" />
+          <div class="col-sm-4">
+            <img src="https://placekitten.com/250/165" alt="Produkt 3" class="spots-img" />
             <h3>Lorem ipsum dolor</h3>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- POPULAR PRODUCTS -->
-        <article>
-          <h2>Populära produkter</h2>
-          <!--BOOTSTRAP GRID HÄR-->
-          <div class="row popular-products">
-            <div class="col-12">
-              <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
-            </div>
-            <div class="col-6">Titel</div>
-            <div class="col-6 text-end">Pris</div>
-
-            <div class="col-12">
-              <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
-            </div>
-            <div class="col-6">Titel</div>
-            <div class="col-6 text-end">Pris</div>
-
-            <div class="col-12">
-              <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
-            </div>
-            <div class="col-6">Titel</div>
-            <div class="col-6 text-end">Pris</div>
-
-            <div class="col-12">
-              <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
-            </div>
-            <div class="col-6">Titel</div>
-            <div class="col-6 text-end">Pris</div>
-
-            <div class="col-12">
-              <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
-            </div>
-            <div class="col-6">Titel</div>
-            <div class="col-6 text-end">Pris</div>
-
-            <div class="col-12">
-              <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
-            </div>
-            <div class="col-6">Titel</div>
-            <div class="col-6 text-end">Pris</div>
-
-            <div class="col-12">
-              <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
-            </div>
-            <div class="col-6">Titel</div>
-            <div class="col-6 text-end">Pris</div>
-
-            <div class="col-12">
-              <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
-            </div>
-            <div class="col-6">Titel</div>
-            <div class="col-6 text-end">Pris</div>
+      <!-- POPULAR PRODUCTS -->
+      <article>
+        <h2>Populära produkter</h2>
+        <!--BOOTSTRAP GRID HÄR-->
+        <div class="row popular-products">
+          <div class="col-12">
+            <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
           </div>
-        </article>
-      </main>
+          <div class="col-6">Titel</div>
+          <div class="col-6 text-end">Pris</div>
 
-      <!--FOOTER-->
-      <footer>
-        <aside class="aside-info">
-          <ul>
-            <li>
-              <i class="fas fa-globe-americas"></i> Gratis frakt och returer
-            </li>
-            <li><i class="fas fa-plane"></i> Expressfrakt</li>
-            <li><i class="fas fa-shield-alt"></i> Säkra betalningar</li>
-            <li><i class="fas fa-newspaper"></i> Nyheter varje dag</li>
-          </ul>
-        </aside>
+          <div class="col-12">
+            <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
+          </div>
+          <div class="col-6">Titel</div>
+          <div class="col-6 text-end">Pris</div>
 
-        <!--FOOTER LINKS-->
-        <nav class="footer-links">
-          <ul>
-            <li><a href="#">Shopping</a></li>
-            <li><a href="#">Vinterjackor</a></li>
-            <li><a href="#">Pufferjackor</a></li>
-            <li><a href="#">Kappor</a></li>
-            <li><a href="#">Trenchcoats</a></li>
-          </ul>
-          <ul>
-            <li><a href="#">Mina Sidor</a></li>
-            <li><a href="#">Mina Ordrar</a></li>
-            <li><a href="#">Mitt Konto</a></li>
-          </ul>
-          <ul>
-            <li><a href="#">Kundtjänst</a></li>
-            <li><a href="#">Returnpolicy</a></li>
-            <li><a href="#">Integritetspolicy</a></li>
-          </ul>
-        </nav>
+          <div class="col-12">
+            <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
+          </div>
+          <div class="col-6">Titel</div>
+          <div class="col-6 text-end">Pris</div>
 
-        <!--COPYRIGHT-->
-        <p class="text-center">Copyright &copy; 2019 Freaky Fashion</p>
-      </footer>
-    </div>
-  </body>
+          <div class="col-12">
+            <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
+          </div>
+          <div class="col-6">Titel</div>
+          <div class="col-6 text-end">Pris</div>
+
+          <div class="col-12">
+            <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
+          </div>
+          <div class="col-6">Titel</div>
+          <div class="col-6 text-end">Pris</div>
+
+          <div class="col-12">
+            <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
+          </div>
+          <div class="col-6">Titel</div>
+          <div class="col-6 text-end">Pris</div>
+
+          <div class="col-12">
+            <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
+          </div>
+          <div class="col-6">Titel</div>
+          <div class="col-6 text-end">Pris</div>
+
+          <div class="col-12">
+            <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
+          </div>
+          <div class="col-6">Titel</div>
+          <div class="col-6 text-end">Pris</div>
+        </div>
+      </article>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+      <aside class="aside-info">
+        <ul>
+          <li>
+            <i class="fas fa-globe-americas"></i> Gratis frakt och returer
+          </li>
+          <li><i class="fas fa-plane"></i> Expressfrakt</li>
+          <li><i class="fas fa-shield-alt"></i> Säkra betalningar</li>
+          <li><i class="fas fa-newspaper"></i> Nyheter varje dag</li>
+        </ul>
+      </aside>
+
+      <!--FOOTER LINKS-->
+      <nav class="footer-links">
+        <ul>
+          <li><a href="#">Shopping</a></li>
+          <li><a href="#">Vinterjackor</a></li>
+          <li><a href="#">Pufferjackor</a></li>
+          <li><a href="#">Kappor</a></li>
+          <li><a href="#">Trenchcoats</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Mina Sidor</a></li>
+          <li><a href="#">Mina Ordrar</a></li>
+          <li><a href="#">Mitt Konto</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Kundtjänst</a></li>
+          <li><a href="#">Returnpolicy</a></li>
+          <li><a href="#">Integritetspolicy</a></li>
+        </ul>
+      </nav>
+
+      <!--COPYRIGHT-->
+      <p class="text-center">Copyright &copy; 2019 Freaky Fashion</p>
+    </footer>
+  </div>
+</body>
+
 </html>
