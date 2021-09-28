@@ -1,76 +1,111 @@
-@media screen and (max-width: 575px) {
+/* body {
+  padding: 0px 24px;
+} */
 
-    /*GLOBAL*/
-    a:link {
-        text-decoration: none;
-    }
+/*GLOBAL*/
+a:link {
+  text-decoration: none;
+}
 
-    ul {
-        list-style: none;
-    }
+ul {
+  list-style: none;
+}
 
-    /*TOP HEADER*/
-    .top-site-header img {
-        margin: 16px 0px 16px 0px;
-        width: 60%;
-    }
+/*TOP HEADER*/
+.site-header {
+  border: 1px dashed black;
+}
 
-    .top-site-header input[type=search] {
-        width: 96%;
-        margin: 0 auto;
-        border-radius: 1.25rem;
-        font-size: 1.25rem;
-    }
-    
-    .top-site-header ul {
-        width: 96%;
-        margin: 16px 0px 16px auto;
-        /* list-style: none; */
-        padding: 0;
-        font-size: 1.25rem;
-    }
+.site-header img {
+  margin: 16px auto;
+  width: 60%;
+}
 
-    /*HERO*/
-    .jumbotron {
-        background-color: pink;
-    }
+.site-header input[type="search"] {
+  width: 100%;
+  margin: 0;
+  border-radius: 1.25rem;
+  font-size: 1.25rem;
+}
 
-    .jumbotron img {
-        width: 85%;
-        padding: 16px 0px 16px 0px;
-    }
+.site-header ul {
+  margin: 16px 0px 16px 0px;
+  /* list-style: none; */
+  padding: 0;
+  font-size: 1.25rem;
+}
 
-    .jumbotron h1, p {
-        padding: 0px 40px 0px 40px;
-    }
-    .btn-container {
-        text-align: center;
-    }
+/*HERO*/
+.hero {
+  background-color: pink;
+  border: 1px dashed black;
+  /* height: auto; */
+  
+}
 
-    /*SPOT*/
-    .main-spots {
-        display: none;
-    }
+.hero * {
+  border: 1px dashed black;
+}
 
-    /*POPULÄRA PRODUKTER*/
-    h2 {
-        text-align: center;
-        margin: 0;
-        padding: 16px 0px 16px 0px;
-    }
+.hero img {
+  padding: 16px 0px;
+  width: 90%;
+}
 
-    /*FOOTER - ASIDE LISTA*/
+.btn-container {
+  text-align: center;
+}
 
-    .aside-info ul {
-        width: 96%;
-        padding: 0;
+/* .hero button {
+    margin-bottom: 16px;
+} */
 
-    }
-    .aside-info > ul li {
-        padding: 0;
-        color: pink;
+/*SPOT*/
+/* .main-spots {
+  display: none;
+} */
 
-    }
+/*POPULÄRA PRODUKTER*/
+.popular-products img {
+  width: 80%;
+}
 
+h2 {
+  text-align: center;
+  margin: 0;
+  padding: 16px 0px 16px 0px;
+}
 
+.popular-products > * {
+  border: 1px dashed black;
+}
+
+/*FOOTER - ASIDE LIST*/
+.aside-info {
+  margin: 30px 0px;
+}
+
+.aside-info ul {
+  padding: 0;
+}
+.aside-info > ul li {
+  margin: 16px 0px;
+  padding: 0;
+  color: pink;
+  font-size: 1.25rem;
+}
+
+.fas {
+  font-size: 2.25rem;
+}
+
+/*FOOTER LINKS*/
+.footer-links > ul {
+  padding: 0;
+  font-size: 1rem;
+}
+
+.footer-links > ul > li:first-child {
+  font-weight: bold;
+  font-size: 1.25rem;
 }

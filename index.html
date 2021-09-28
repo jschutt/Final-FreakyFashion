@@ -18,109 +18,169 @@
     />
   </head>
   <body>
-    <!-- TOP-SITE HEADER -->
-    <header class="top-site-header">
-      <img
-        src="https://placekitten.com/230/100"
-        class="rounded mx-auto d-block"
-        alt="logotyp"
-      />
-      <form>
-        <input type="search" class="form-control" placeholder="Search" />
-      </form>
-      <!-- TOP-SITE LINKS -->
-      <nav>
-        <ul>
-          <li><a href="#">Nyheter</a></li>
-          <li><a href="#">Kategorier</a></li>
-          <li><a href="#">Topplistan</a></li>
-          <li><a href="#">Rea</a></li>
-          <li><a href="#">Kampanjer</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <!-- HERO -->
-    <main>
-      <article class="jumbotron">
-        <img
-          src="https://placekitten.com/600/300"
-          class="mx-auto d-block"
-          alt="Hero"
-        />
-        <h1 class="display-5">Lorem ipsum dolor</h1>
-        <p class="lead">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-          tempore dolores cumque, aliquid laudantium nisi. Excepturi eos commodi
-          voluptate.
-        </p>
-        <div class="btn-container">
-          <button>Lorem</button>
+    <div class="container">
+      <!-- SITE HEADER -->
+      <header class="site-header">
+        <div class="row">
+          <div class="col-12">
+            <img
+              src="https://placekitten.com/230/100"
+              class="rounded mx-auto d-block"
+              alt="logotyp"
+            />
+          </div>
+          <form>
+            <input type="search" class="form-control" placeholder="Search" />
+          </form>
+          <!-- SITE LINKS -->
+          <nav>
+            <ul>
+              <li><a href="#">Nyheter</a></li>
+              <li><a href="#">Kategorier</a></li>
+              <li><a href="#">Topplistan</a></li>
+              <li><a href="#">Rea</a></li>
+              <li><a href="#">Kampanjer</a></li>
+            </ul>
+          </nav>
         </div>
+      </header>
 
-      </article>
+      <!-- HERO -->
+      <main>
+        <article class="hero">
+          <div class="row">
+            <div class="col-12">
+              <img
+                src="https://placekitten.com/600/300"
+                alt="Hero"
+                class="mx-auto d-block"
+              />
+            </div>
+            <!-- <div class="row"> -->
 
-      <!-- SPOTS -->
-      <section class="main-spots">
-        <div>
-          <img src="https://placekitten.com/250/165" alt="Produkt 1" />
-          <h3>Lorem ipsum dolor</h3>
-        </div>
-        <div>
-          <img src="https://placekitten.com/250/165" alt="Produkt 2" />
-          <h3>Lorem ipsum dolor</h3>
-        </div>
-        <div>
-          <img src="https://placekitten.com/250/165" alt="Produkt 3" />
-          <h3>Lorem ipsum dolor</h3>
-        </div>
-      </section>
+            <h1 class="col-12 display-5">Lorem ipsum dolor</h1>
+            <p class="col-12 lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur tempore dolores cumque, aliquid laudantium nisi.
+              Excepturi eos commodi voluptate.
+            </p>
+            <div class="col-12 btn-container">
+              <button>Lorem</button>
+            </div>
 
-      <!-- POPULAR PRODUCTS -->
-      <article>
-        <h2>Populära produkter</h2>
-        <!--BOOTSTRAP GRID HÄR-->
-      </article>
-    </main>
+            <!-- </div> -->
+          </div>
+        </article>
 
-    <!--FOOTER-->
-    <footer>
-      <aside class="aside-info">
-        <ul>
-          <i class="fas fa-globe-americas"></i>
-          <li>Gratis frakt och returer</li>
-          <i class="fas fa-plane"></i>
-          <li>Expressfrakt</li>
-          <i class="fas fa-shield-alt"></i>
-          <li>Säkra betalningar</li>
-          <i class="fas fa-newspaper"></i>
-          <li>Nyheter varje dag</li>
-        </ul>
-      </aside>
+        <!-- SPOTS -->
+        <section class="main-spots d-none">
+          <div>
+            <img src="https://placekitten.com/250/165" alt="Produkt 1" />
+            <h3>Lorem ipsum dolor</h3>
+          </div>
+          <div>
+            <img src="https://placekitten.com/250/165" alt="Produkt 2" />
+            <h3>Lorem ipsum dolor</h3>
+          </div>
+          <div>
+            <img src="https://placekitten.com/250/165" alt="Produkt 3" />
+            <h3>Lorem ipsum dolor</h3>
+          </div>
+        </section>
 
-      <!--FOOTER LINKS-->
-      <nav>
-        <ul>
-          <li><a href="#">Shopping</a></li>
-          <li><a href="#">Vinterjackor</a></li>
-          <li><a href="#">Pufferjackor</a></li>
-          <li><a href="#">Kappor</a></li>
-          <li><a href="#">Trenchcoats</a></li>
-        </ul>
-        <ul>
-          <li><a href="#">Mina Sidor</a></li>
-          <li><a href="#">Mina Ordrar</a></li>
-          <li><a href="#">Mitt Konto</a></li>
-        </ul>
-        <ul>
-          <li><a href="#">Kundtjänst</a></li>
-          <li><a href="#">Returnpolicy</a></li>
-          <li><a href="#">Integritetspolicy</a></li>
-        </ul>
-      </nav>
+        <!-- POPULAR PRODUCTS -->
+        <article>
+          <h2>Populära produkter</h2>
+          <!--BOOTSTRAP GRID HÄR-->
+          <div class="row popular-products">
+            <div class="col-12">
+              <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
+            </div>
+            <div class="col-6">Titel</div>
+            <div class="col-6 text-end">Pris</div>
 
-      <!--COPYRIGHT-->
-      <p>Copyright &copy; 2019 Freaky Fashion</p>
-    </footer>
+            <div class="col-12">
+              <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
+            </div>
+            <div class="col-6">Titel</div>
+            <div class="col-6 text-end">Pris</div>
+
+            <div class="col-12">
+              <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
+            </div>
+            <div class="col-6">Titel</div>
+            <div class="col-6 text-end">Pris</div>
+
+            <div class="col-12">
+              <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
+            </div>
+            <div class="col-6">Titel</div>
+            <div class="col-6 text-end">Pris</div>
+
+            <div class="col-12">
+              <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
+            </div>
+            <div class="col-6">Titel</div>
+            <div class="col-6 text-end">Pris</div>
+
+            <div class="col-12">
+              <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
+            </div>
+            <div class="col-6">Titel</div>
+            <div class="col-6 text-end">Pris</div>
+
+            <div class="col-12">
+              <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
+            </div>
+            <div class="col-6">Titel</div>
+            <div class="col-6 text-end">Pris</div>
+
+            <div class="col-12">
+              <img src="https://placekitten.com/g/210/280" alt="produkt" class="mx-auto d-block" />
+            </div>
+            <div class="col-6">Titel</div>
+            <div class="col-6 text-end">Pris</div>
+          </div>
+        </article>
+      </main>
+
+      <!--FOOTER-->
+      <footer>
+        <aside class="aside-info">
+          <ul>
+            <li>
+              <i class="fas fa-globe-americas"></i> Gratis frakt och returer
+            </li>
+            <li><i class="fas fa-plane"></i> Expressfrakt</li>
+            <li><i class="fas fa-shield-alt"></i> Säkra betalningar</li>
+            <li><i class="fas fa-newspaper"></i> Nyheter varje dag</li>
+          </ul>
+        </aside>
+
+        <!--FOOTER LINKS-->
+        <nav class="footer-links">
+          <ul>
+            <li><a href="#">Shopping</a></li>
+            <li><a href="#">Vinterjackor</a></li>
+            <li><a href="#">Pufferjackor</a></li>
+            <li><a href="#">Kappor</a></li>
+            <li><a href="#">Trenchcoats</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Mina Sidor</a></li>
+            <li><a href="#">Mina Ordrar</a></li>
+            <li><a href="#">Mitt Konto</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Kundtjänst</a></li>
+            <li><a href="#">Returnpolicy</a></li>
+            <li><a href="#">Integritetspolicy</a></li>
+          </ul>
+        </nav>
+
+        <!--COPYRIGHT-->
+        <p class="text-center">Copyright &copy; 2019 Freaky Fashion</p>
+      </footer>
+    </div>
   </body>
 </html>
