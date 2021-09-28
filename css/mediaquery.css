@@ -29,6 +29,21 @@
 
   .spots-img{
       width: 100%;
-      
+  }
+
+  .main-spots h3 {
+      text-align: center;
+  }
+
+  .aside-info ul {
+      text-align: center;
+  }
+
+  .aside-info li {
+    display: inline;
+  }
+
+  .footer-links {
+    gap: 30px;
   }
 }
