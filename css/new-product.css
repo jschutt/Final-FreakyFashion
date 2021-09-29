@@ -1,0 +1,19 @@
+body {
+    margin-left: 16px;
+}
+.form-control {
+    width: 25%;
+}
+
+label {
+    display: block;
+    margin: 8px 0;
+}
+
+select {
+    display: block;
+}
+
+button {
+    margin: 8px 0;
+}
